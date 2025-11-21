@@ -1,0 +1,30 @@
+:root {
+  --corPrincipal: rgba(75, 46, 5, 1);
+  --corSecundaria: rgba(220, 199, 170, 1);
+  --destaque: rgba(196, 154, 108, 1);
+  --fundoAlt: rgba(243, 231, 200, 1);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+
+header {
+  background-color: var(--corPrincipal);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 320px;
+  min-height: 70px;
+  padding: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
