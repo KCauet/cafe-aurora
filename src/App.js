@@ -1,4 +1,5 @@
 import './App.css';
+import hero from './Images/Heroimg.jpg';
 
 function App() {
   return (
@@ -18,6 +19,25 @@ function App() {
         </section>
       </header>
 
+      <div style={{
+        width: '100%',
+        height: '200px',
+        display: 'flex',
+      }} >
+
+        <div style={{
+          backgroundImage: `url(${hero})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          height: '660px',
+          width: '100%',
+          backgroundColor: 'red'
+        }}>
+
+        </div>
+      </div>
+      
 
       
     </div>
