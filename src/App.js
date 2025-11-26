@@ -25,16 +25,12 @@ function App() {
         display: 'flex',
       }} >
 
-        <div style={{
-          backgroundImage: `url(${hero})`,
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          height: '660px',
-          width: '100%',
-          backgroundColor: 'red'
-        }}>
-
+        <div className='heroContainer' >
+          <div style={{
+            filter: 'brightness(100%)'
+          }}>
+            <h1>oal</h1>
+          </div>
         </div>
       </div>
       
