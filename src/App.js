@@ -1,5 +1,5 @@
 import './App.css';
-import hero from './Images/Heroimg.jpg';
+
 
 function App() {
   return (
@@ -26,15 +26,21 @@ function App() {
       }} >
 
         <div className='heroContainer' >
-          <div style={{
-            filter: 'brightness(100%)'
-          }}>
-            <h1>oal</h1>
-          </div>
-        </div>
-      </div>
-      
 
+          <div style={{
+            filter: 'brightness(100%)',
+            textAlign: 'center',
+            scale: '1.5'
+          }}>
+            <h1>Café - Aurora</h1>
+            <h2>Mais do que um café</h2>
+            <h2>um momento para desacelerar</h2>
+            <button>Ver Cardápio</button>
+          </div>
+
+        </div>
+
+      </div>
       
     </div>
   );

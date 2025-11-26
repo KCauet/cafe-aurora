@@ -15,7 +15,6 @@ h2 {
   font-style: italic;
 }
 
-
 header {
   background-color: var(--corPrincipal);
   color: white;
@@ -27,6 +26,10 @@ header {
   padding: 6px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+header p:hover {
+  background-color: white;
 }
 
 .heroContainer::before {
@@ -50,4 +53,26 @@ header {
   color: white;
   position: relative;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroContainer div h1 {
+  font-size: 45px;
+}
+
+button {
+  margin: 15px;
+  background-color: var(--destaque);
+  border: 1px solid grey;
+  border-radius: 35px;
+  color: white;
+  padding: 10px;
+  transition: all 0.35s ease;
+}
+
+button:hover {
+  border: 1px solid black;
+  background-color: rgba(220, 199, 170, 0.3);
 }
