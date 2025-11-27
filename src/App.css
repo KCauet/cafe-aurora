@@ -28,9 +28,27 @@ header {
   padding-right: 20px;
 }
 
-header p:hover {
-  background-color: white;
+header p {
+  padding-bottom: 2px;
+  cursor: pointer;
+  position: relative;
 }
+
+header p:after {
+  content: '';
+  transition: all 0.25s ease;
+  position: absolute;
+  background-color: var(--corSecundaria);
+  height: 2.5px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+}
+
+header p:hover:after {
+  width: 100%;
+}
+/* Uma partezinha aqui em cima que eu fiz pra animação dos itens no header :> */
 
 .heroContainer::before {
   content: "";
@@ -39,7 +57,7 @@ header p:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.55);
   z-index: 0;
 }
 
@@ -68,7 +86,7 @@ button {
   border: 1px solid grey;
   border-radius: 35px;
   color: white;
-  padding: 10px;
+  padding: 7px;
   transition: all 0.35s ease;
 }
 
@@ -76,3 +94,4 @@ button:hover {
   border: 1px solid black;
   background-color: rgba(220, 199, 170, 0.3);
 }
+
