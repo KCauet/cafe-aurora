@@ -10,6 +10,15 @@
   margin: 0px;
 }
 
+body {
+  background-color: var(--corPrincipal);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
 h2 {
   font-weight: 100;
   font-style: italic;

@@ -1,4 +1,6 @@
 import './App.css';
+import Segmento from './components/Segmento';
+import imgS1 from './Images/Cafeteria.jpg';
 
 
 function App() {
@@ -21,8 +23,6 @@ function App() {
 
       <div style={{
         width: '100%',
-        height: '200px',
-        display: 'flex',
       }} >
 
         <div className='heroContainer' >
@@ -41,7 +41,13 @@ function App() {
         </div>
 
       </div>
-      
+
+      <main>
+
+        <Segmento titulo={'Titulo foda aqui'} desc={'Desc foda aqui'} img={imgS1} />
+
+      </main>
+
     </div>
   );
 }

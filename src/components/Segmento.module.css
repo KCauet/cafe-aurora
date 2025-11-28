@@ -1,0 +1,12 @@
+.mainDiv {
+    background-color: var(--fundoAlt);
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.sectionDiv {
+    background-color: var(--destaque);
+    padding: 15px;
+}
