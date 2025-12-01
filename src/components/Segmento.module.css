@@ -4,9 +4,19 @@
     grid-template-columns: 50% 50% ;
     width: 100%;
     margin-top: 70px;
+    height: 660px;
 }
 
 .sectionDiv {
-    background-color: var(--destaque);
     padding: 15px;
+}
+
+.sectionDiv h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.sectionDiv p {
+    font-size: 35px;
+    margin-left: 30px;
 }

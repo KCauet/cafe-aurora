@@ -19,11 +19,12 @@ function Segmento( {extras, titulo, desc, img} ) {
                 <h1>{titulo}</h1>
                 <br />
                 <p>{desc}</p>
+                {extras}
             </section>
 
             
 
-            {extras}
+            
         </div>
     )
 }

@@ -44,7 +44,10 @@ function App() {
 
       <main>
 
-        <Segmento titulo={'Titulo foda aqui'} desc={'Desc foda aqui'} img={imgS1} />
+        <Segmento titulo={'Conheça-nos'} desc={'Somos uma equipe que sonha em você realizar um sonho seu! então que tal uma chicara de café bem quentinha logo de manhã?'} img={imgS1} extras={<>
+          
+          <p style={{marginTop: '50px'}}>Com os melhores preços se alcança os melhores resultados.</p>
+          </>} />
 
       </main>
 
