@@ -14,7 +14,7 @@ body {
   background-color: var(--corPrincipal);
 }
 
-h2 {
+.heroContainer h2 {
   font-weight: 100;
   font-style: italic;
 }
@@ -82,6 +82,21 @@ header p:hover:after {
 
 .heroContainer div h1 {
   font-size: 45px;
+}
+
+.section {
+    background-color: var(--fundoAlt);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.section div {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 button {

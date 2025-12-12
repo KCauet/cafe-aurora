@@ -1,7 +1,7 @@
 import './App.css';
 import Segmento from './components/Segmento';
 import imgS1 from './Images/Cafeteria.jpg';
-
+import Box from './components/Box';
 
 function App() {
   return (
@@ -49,10 +49,24 @@ function App() {
           <p style={{marginTop: '50px'}}>Com os melhores preços se alcança os melhores resultados.</p>
           </>
         } />
-        
-        <Segmento titulo={'Por que nos escolher?'} allowImg={false} />
 
+          <div className='section'>
 
+            <div>
+              <h2 style={{
+                fontSize: '55px',
+                fontWeight: '900'
+                }} >Por que nos escolher?</h2>
+            </div>
+
+            <div>
+              <Box title={'Preço'} desc={'Um local onde todos os bolsos são felizes'} />
+              <Box title={'Qualidade'} desc={'Um local onde todos os bolsos são felizes'} />
+              <Box title={'Garantia'} desc={'Um local onde todos os bolsos são felizes'} />
+            </div>
+            
+          </div>
+          
       </main>
 
     </div>
