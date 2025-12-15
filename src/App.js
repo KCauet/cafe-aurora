@@ -60,9 +60,9 @@ function App() {
             </div>
 
             <div>
-              <Box title={'Preço'} desc={'Um local onde todos os bolsos são felizes'} />
-              <Box title={'Qualidade'} desc={'Um local onde todos os bolsos são felizes'} />
-              <Box title={'Garantia'} desc={'Um local onde todos os bolsos são felizes'} />
+              <Box title={'Preço'} desc={'Cuidamos do café tanto quanto o seu bolso!'}extra={'Temos com certeza os melhores preços pra te ajudar em tudo.'} icon={'tag'} />
+              <Box title={'Qualidade'} desc={'Sempre manteremos a qualidade dos cafés únicos com variedade e tudo sem dor de cabeça.'} icon={'coffee'} />
+              <Box title={'Garantia'} desc={'Garantiremos que tenha o melhor atendimento tanto quanto o melhor café.'} icon={'handshake'} />
             </div>
             
           </div>
