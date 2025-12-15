@@ -66,6 +66,10 @@ function App() {
             </div>
             
           </div>
+
+          <div className='section'>
+            <p>exemplo</p>
+          </div>
           
       </main>
 
