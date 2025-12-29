@@ -2,6 +2,7 @@ import './App.css';
 import Segmento from './components/Segmento';
 import imgS1 from './Images/Cafeteria.jpg';
 import Box from './components/Box';
+import Cardapio from './components/Cardapio';
 
 function App() {
   return (
@@ -67,9 +68,11 @@ function App() {
             
           </div>
 
-          <div className='section'>
-            <p>exemplo</p>
-          </div>
+          
+          <Cardapio />
+          
+
+          
           
       </main>
 
